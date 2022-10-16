@@ -38,7 +38,7 @@ public class CartController {
 		orderlist.addAll(roderservice.listorder(lc.cus_id));
 		System.out.println(orderlist);
 		mv.addObject("orderlist" ,orderlist);
-		mv.setViewName("usercart.jsp");
+		mv.setViewName("usercart.jsp");///h
 		return mv;
 		
 	}
